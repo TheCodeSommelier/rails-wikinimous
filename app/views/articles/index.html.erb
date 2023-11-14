@@ -1,0 +1,5 @@
+<div class="container d-flex justify-content-center flex-column">
+  <% @articles.each do |article| %>
+    <div class="flex-column article-position p-2"><h2><%= link_to article.title, article_path(article) %></h2><div><%= article.content %></div></div>
+  <% end %>
+</div>

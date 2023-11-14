@@ -1,0 +1,16 @@
+<div class="container d-flex justify-content-center flex-column content-margin-top content-width">
+  <div class="d-flex border-bottom-grey align-items-center">
+    <h1><%= @article.title %></h1>
+    <%= link_to edit_article_path do %>
+      <i class="fa-solid fa-pencil"></i>
+    <% end %>
+
+    <%= link_to article_path(@article), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
+      <i class="fa-solid fa-trash"></i>
+    <% end %>
+  </div>
+
+  <div class="body-margin-top">
+    <p><%= @article.content %></p>
+  </div>
+</div>

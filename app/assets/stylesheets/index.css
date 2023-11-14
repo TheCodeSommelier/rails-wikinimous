@@ -1,0 +1,9 @@
+
+.flex-column {
+  flex-direction: column;
+  width: 75%;
+ }
+
+ .article-position {
+  margin: auto;
+ }

@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+ @import url(./show.css);
+ @import url(./index.css);
+ @import url(./edit.css);
+
+
+ a {
+  text-decoration: none;
+  color: #337ab7;
+ }
+
+ .navbar-bg-color {
+  background-color: rgba(235, 235, 235, 0.5) !important;
+ }
+
+ .logo-position {
+  margin: 5px;
+  font-size: 18px;
+  padding: 0;
+  align-self: center;
+
+ }
+
+ .nav-link-size {
+  font-size: 14px;
+  color: #5c5c5c;
+ }
+
+ .nav-link-size:hover {
+  color: #363636;
+ }
+
+ .logo-color {
+  color: #5c5c5c;
+ }
+
+ .logo-color:hover {
+  color: #363636;
+ }
